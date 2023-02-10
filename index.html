@@ -2,44 +2,78 @@
 <html>
     <head>
         <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>WCC Portfolio</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+
     </head>
     <body>
 
-        <!--This is a comment in HTML-->
+        <header>
+            <h1>Jiayu Tian</h1>
 
-        <!--This week we are keeping things very simple, please do not add anything extra, no CSS styling etc.-->
+        </header>
 
-        <!--Change to your full name below-->
-        <h1>Jiayu Tian</h1>
+        <main>
+            <h3>Term 1</h3>
+            <section class="flex-container">
+                
+                <div class="flex-item"> 
+                    <a href="./Heart-Sutra-Page" id="my-second-item-id">
+                        <h4 id="my-second-item-id">Demo Page</h4>
+                    </a>
+                </div>
 
-        <h3>Term 1</h3>
+                <div class="flex-item"> 
+                    <a href="./So-I-Disconnect-Page" id="my-first-item-id">
+                        <h4 id="my-first-item-id">So I Disconnect</h4>
+                    </a>
+                </div>
+                
+            </section>
 
-        <!--Add two to five links to projects from last term that you should host on github-->
-        <ul>
-            <li>
-                <!--This is a link, the href value should contain the url or relative path to a page. / means the root folder of the directory structure-->
-                <a href="https://vimeo.com/780023519">So I Disconnect</a>
-            </li>
-            <li>
-                <a href="https://vimeo.com/788074971">The Divine Right of Emperor  - 神权君授</a>
-            </li>
-            <li>
-                <!-- Keep adding as many new list items with links as you need-->
-            </li>
-        </ul>
+            <h3>Term 2</h3>
+            <section class="flex-container">
 
-        <h3>Term 2</h3>
+                <div class="flex-item"> 
+                    <a href="https://jiayutian525.github.io/week1---poem/" id="my-moon-poem-id">
+                        <h4 id="my-moon-poem-id">1. Hypertext Concrete Poem</h4>
+                    </a>
+                </div>
+         
+                <div class="flex-item"> 
+                    <a href="https://jiayutian525.github.io/the-Illusion-of-Life/" id="my-buddha-creature-id">
+                        <h4 id="my-buddha-creature-id">2. The Illution of Life </h4>
+                    </a>
+                </div>
 
-        <!-- Change the href attribute value from / to the url to your project -->
-        <ul>
-            <li>
-                <a href="https://jiayutian525.github.io/week1---poem/">Week 1: Hypertext Concrete Poem</a>
-            </li>
-            <li>
-                Week 2: As If, the Illusion of Life
-            </li>
-        </ul>
+                <div class="flex-item"> 
+                    <a href="https://github.com/JiayuTian525/MakeOrScrape" id="my-make-scrape-id">
+                        <h4 id="my-make-scrape-id">3. Make or Scrape</h4>
+                    </a>
+                </div>
+
+                <div class="flex-item"> 
+                    <a href="#">
+                        <h4>4. Data Set Two Ways</h4>
+                    </a>
+                </div>
+
+                    <!-- Keep adding per week -->
+
+                
+            </section> 
+
+        </main>
+        <footer>
+           <!-- normally information like contact details etc  -->
+           <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+           
+        </footer>
 
     </body>
 </html>
