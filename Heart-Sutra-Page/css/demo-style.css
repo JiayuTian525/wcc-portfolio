@@ -1,6 +1,14 @@
 
 /*This is a comment in CSS*/
 
+
+/* you could add some media queries to make the video size look good on all screen sizes*/
+
+body {
+    background-color: #beb29a;
+  }
+  
+
 nav{
     padding:10px 3%;
 }
@@ -11,7 +19,7 @@ nav{
     width: 79%; /* adjust this and the padding-top to change how big it is*/
     height: 0;
     padding-top: 45%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
-    /* margin: 0 auto; */ /*this would center your video in the section container*/
+    margin: 0 auto; /*this would center your video in the section container*/
 }
 .responsive-video iframe{
     position: absolute;
@@ -28,5 +36,16 @@ nav{
     height: auto;
 }
 
+body {
+    background-image: url("../assets/images/lightgrey-line.jpeg");
+  }
+
 
 /* you could add some media queries to make the video size look good on all screen sizes*/
+
+@media (max-width: 600px) {
+    .responsive-video {
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 aspect ratio */
+    }
+  }
